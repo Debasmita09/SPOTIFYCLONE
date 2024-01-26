@@ -1,0 +1,127 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Varela+Round&display=swap');
+
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "varela rounded", serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:50px;
+    background-color: black ;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color:white ;
+    font-family: "varela rounded", serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 20px;
+    background-image: url('bg.jpg');
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+#myProgessBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top:74px;
+}
+
+.songItem{
+    height: 55px;
+    width: 350px;
+    display: flex;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    color: #fff;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #A9A9A9;
+    border-radius: 34px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.songItem span {
+    font-weight: 700;
+}
+
+.songItem img{
+    width: 39px;
+    margin: 0 23px;
+    border-radius: 34px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.timestamp{
+    margin: 0 23px;
+   
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+
+}
+
+#myProgessBar {
+    margin-top: 1rem;
+}
